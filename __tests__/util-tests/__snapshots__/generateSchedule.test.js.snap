@@ -1,0 +1,32 @@
+exports[`test generates schedule, based on array of items 1`] = `
+Array [
+  Object {
+    "body": "bumming",
+    "id": 0,
+  },
+  Object {
+    "body": "bumming",
+    "id": 1,
+  },
+  Object {
+    "body": "bumming",
+    "id": 2,
+  },
+  Object {
+    "body": "bumming",
+    "id": 3,
+  },
+  Object {
+    "body": "bumming",
+    "id": 4,
+  },
+  Object {
+    "body": "bumming",
+    "id": 5,
+  },
+  Object {
+    "body": "bumming",
+    "id": 6,
+  },
+]
+`;

@@ -1,0 +1,11 @@
+exports[`test renders note div 1`] = `
+<div
+  className="note active">
+  <div
+    className="id" />
+  <div
+    className="body">
+    Test note
+  </div>
+</div>
+`;

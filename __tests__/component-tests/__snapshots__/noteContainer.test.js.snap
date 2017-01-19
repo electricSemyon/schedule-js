@@ -1,0 +1,82 @@
+exports[`test renders notes from "notes" prop 1`] = `
+<div
+  className="shedule">
+  <div
+    className="note ">
+    <div
+      className="id">
+      Sun
+    </div>
+    <div
+      className="body">
+      react + redux
+    </div>
+  </div>
+  <div
+    className="note active">
+    <div
+      className="id">
+      Mon
+    </div>
+    <div
+      className="body">
+      buming
+    </div>
+  </div>
+  <div
+    className="note ">
+    <div
+      className="id">
+      Tue
+    </div>
+    <div
+      className="body">
+      buming
+    </div>
+  </div>
+  <div
+    className="note ">
+    <div
+      className="id">
+      Wed
+    </div>
+    <div
+      className="body">
+      react + redux
+    </div>
+  </div>
+  <div
+    className="note ">
+    <div
+      className="id">
+      Thu
+    </div>
+    <div
+      className="body">
+      buming
+    </div>
+  </div>
+  <div
+    className="note ">
+    <div
+      className="id">
+      Fr
+    </div>
+    <div
+      className="body">
+      buming
+    </div>
+  </div>
+  <div
+    className="note ">
+    <div
+      className="id">
+      Sat
+    </div>
+    <div
+      className="body">
+      html & css
+    </div>
+  </div>
+</div>
+`;

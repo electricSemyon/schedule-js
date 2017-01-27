@@ -14,6 +14,7 @@ So, how our extension looks now:
 
 ## How to develop?
 `git clone https://github.com/electricSemyon/schedule-js.git`
+
 `npm install`
 
 ## Available commands

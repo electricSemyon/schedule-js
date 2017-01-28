@@ -1,5 +1,5 @@
 # schedule-js
-Google chrome extension written with React for automatic week schedules making. 
+Google chrome extension written with React for generating weekly schedules. 
 
 ## How to use?
 Easy! Firstly, you should fill schedule items list. Like here:

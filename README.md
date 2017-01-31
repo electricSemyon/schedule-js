@@ -20,7 +20,7 @@ So, how our extension looks now:
 ## Available commands
 
 ### `npm run test` 
-Runs all tests, placed in *\_\_tests\_\_*  directory.
+Runs all tests.
 
 ### `npm run build-js` 
 Builds app to *build* folder.

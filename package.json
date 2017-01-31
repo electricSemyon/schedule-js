@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build-js": "browserify src/index.js -o build/dist/index.js -t [ babelify --presets [ es2015 react ] --plugins [ transform-object-rest-spread ] ]"
+    "build-js": "browserify src/index.js -o public/js/bundle.js -t [ babelify --presets [ es2015 react ] --plugins [ transform-object-rest-spread ] ]"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "babel-jest": "^18.0.0",

@@ -26,7 +26,8 @@ Runs all tests, placed in *\_\_tests\_\_*  directory.
 Builds app to *build* folder.
 
 ##To do:
-- [ ] Make abstraction for schedule
-- [ ] Make abstraction for items list
-- [ ] Fix function binding issue in App component
+- [x] Make abstraction for schedule
+- [x] Make abstraction for items list
+- [x] Fix function binding issue in App component
 - [ ] Add item on Enter key press
+- [x] Added Redux

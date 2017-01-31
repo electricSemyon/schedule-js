@@ -29,5 +29,5 @@ Builds app to *build* folder.
 - [x] Make abstraction for schedule
 - [x] Make abstraction for items list
 - [x] Fix function binding issue in App component
-- [ ] Add item on Enter key press
+- [x] Add item on Enter key press
 - [x] Added Redux

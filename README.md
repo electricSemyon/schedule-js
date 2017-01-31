@@ -1,4 +1,4 @@
-# schedule-js
+# Weekler
 Google chrome extension written with React for generating weekly schedules. 
 
 ## How to use?

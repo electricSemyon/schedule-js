@@ -17,7 +17,7 @@ export default class Schedule {
     const currentDate = new Date().getDate();
     const currentDay = new Date().getDay();
     const lsItem = localStorage.getItem('schedule');
-    const savedDate = JSON.parse(lsItem).date;
+    const savedDate = JSON.parse(lsItem) ? JSON.parse(lsItem).date : new Date();
 
     return !(new Date(savedDate).getDay() === currentDay
       && new Date(savedDate).getDate() != currentDate)

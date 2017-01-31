@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build-js": "browserify src/index.js -o public/js/bundle.js -t [ babelify --presets [ es2015 react ] --plugins [ transform-object-rest-spread ] ]"
+    "build-js": "browserify src/index.js -o public/js/bundle.js -t [ babelify --presets [ es2015 react ] --plugins [ transform-object-rest-spread ] ]",
+    "build-css": "lessc public/less/main.less public/css/main.css"
   },
   "author": "",
   "license": "ISC",

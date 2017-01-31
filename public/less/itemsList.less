@@ -1,6 +1,6 @@
 @main-color: #4E6F7D;
 
-.itemsContainer {
+.interfaceWrapper {
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -23,7 +23,7 @@
       box-shadow: 1px 1px 3px  #ccc;
     }
 
-    input[type=button] {
+    button {
       color: @main-color;
       float: right;
       font-weight: bold;
@@ -35,26 +35,23 @@
       width: 18%;
     }
 
-    input[type=button]:hover {
+    button:hover {
       background-color: #fafafa;
     }
 
-    input[type=button]:active {
+    button:active {
       background-color: #dfdfdf;
     }
   }
   
   .itemsList {
-    font-size: 0.7em;
-  }
-
-  ul {
+    font-size: 1em;
     overflow-y: scroll;
     max-height: 80px;
     margin: 3px;
   }
 
-  ul li a {
+  .itemsList .item a {
     font-size: 0.7em;
     float: right;
     margin-right: 20px;

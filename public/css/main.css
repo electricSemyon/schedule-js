@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
-.itemsContainer {
+.interfaceWrapper {
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 5px;
   overflow: hidden;
 }
-.itemsContainer .interface {
+.interfaceWrapper .interface {
   overflow: hidden;
   max-height: 0px;
   box-shadow: 0 0 0 3px white inset, 0 -4px 7px #ccc inset;
   -webkit-transition: all 1s ease;
   margin-top: 5px;
 }
-.itemsContainer .interface input[type=text] {
+.interfaceWrapper .interface input[type=text] {
   width: 70%;
   height: 1.5em;
   border: none;
@@ -21,7 +21,7 @@
   background-color: #fff;
   box-shadow: 1px 1px 3px  #ccc;
 }
-.itemsContainer .interface input[type=button] {
+.interfaceWrapper .interface button {
   color: #4E6F7D;
   float: right;
   font-weight: bold;
@@ -32,21 +32,19 @@
   box-shadow: 1px 1px 3px  #ccc;
   width: 18%;
 }
-.itemsContainer .interface input[type=button]:hover {
+.interfaceWrapper .interface button:hover {
   background-color: #fafafa;
 }
-.itemsContainer .interface input[type=button]:active {
+.interfaceWrapper .interface button:active {
   background-color: #dfdfdf;
 }
-.itemsContainer .itemsList {
-  font-size: 0.7em;
-}
-.itemsContainer ul {
+.interfaceWrapper .itemsList {
+  font-size: 1em;
   overflow-y: scroll;
   max-height: 80px;
   margin: 3px;
 }
-.itemsContainer ul li a {
+.interfaceWrapper .itemsList .item a {
   font-size: 0.7em;
   float: right;
   margin-right: 20px;
@@ -67,7 +65,6 @@ ul {
 .logo-wrapper {
   background-color: #fff;
   margin-left: 5px;
-  margin-bottom: -15px;
   margin-top: 10px;
 }
 .logo {

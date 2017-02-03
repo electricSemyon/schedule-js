@@ -4,13 +4,13 @@ Google chrome extension written with React for generating weekly schedules.
 ## How to use?
 Easy! Firstly, you should fill schedule items list. Like here:
 
-![img](http://screenshot.su/img/cf/69/af/cf69afd31756496319efef74d0799d34.jpg)
+![img](http://screenshot.su/img/9d/e3/3f/9de33f1cb56b1dabd0e5adc4470e37a7.jpg)
 
 When items list is done, extension will generate schedule for you. 
 `Important:` schedule will be regenerated every time you modify items list.
 So, how our extension looks now:
 
-![img](http://screenshot.su/img/4a/68/37/4a6837f9d3587558f5841fb2ce5b2bb2.jpg)
+![img](http://screenshot.su/img/ed/2c/ba/ed2cba7f72d21ecf8a25312711416ae0.jpg)
 
 ## How to develop?
 `git clone https://github.com/electricSemyon/schedule-js.git`

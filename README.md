@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/electricSemyon/weekler.svg?branch=master)](https://travis-ci.org/electricSemyon/weekler)
+
 # Weekler
 Google chrome extension written with React for generating weekly schedules.
 

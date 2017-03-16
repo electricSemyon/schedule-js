@@ -27,7 +27,7 @@ Runs all tests.
 ### `npm run build`
 Builds app to *build* folder.
 
-##To do:
+## To do:
 - [x] Make abstraction for schedule
 - [x] Make abstraction for items list
 - [x] Fix function binding issue in App component
